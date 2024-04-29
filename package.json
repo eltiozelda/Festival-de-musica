@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Aprendiendo SASS y NPM",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "sass": "sass --watch src/scss:build/css"
+    "sass": "sass --watch src/scss:build/css",
+    "hola": "gulp hola"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/eltiozelda/Festival-de-musica#readme",
   "devDependencies": {
+    "gulp": "^5.0.0",
     "sass": "^1.75.0"
   }
 }
