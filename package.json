@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/eltiozelda/Festival-de-musica/issues"
   },
-  "homepage": "https://github.com/eltiozelda/Festival-de-musica#readme"
+  "homepage": "https://github.com/eltiozelda/Festival-de-musica#readme",
+  "devDependencies": {
+    "sass": "^1.75.0"
+  }
 }
